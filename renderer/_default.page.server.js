@@ -3,7 +3,6 @@ import { escapeInject, dangerouslySkipEscape } from "vite-plugin-ssr";
 import { createPageApp } from "./app";
 
 export const passToClient = [
-  "urlParsed",
   "pageProps"
 ];
 
